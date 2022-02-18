@@ -1,0 +1,111 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+
+.img {
+    float: left;
+    padding: 12px 15px;
+    font-size: 19px;
+    line-height: 21px;
+    height: 62px;
+    max-width: 220px;
+    display: table;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+body {
+    font-family: 'Rowdies';
+    text-align: center;
+    height: 100vh;
+    /* border: 2px solid black; */
+    padding: 20px;
+    background-color: rgb(103, 192, 81);
+}
+
+nav {
+    border: 2px solid black;
+    margin: 10px;
+}
+
+nav a {
+    margin: 8px;
+}
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(89, 138, 179);
+    }
+    li {
+        float: right;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+            background-color: rgb(175, 175, 175);
+        }   
+
+    .logo {
+        float: left;
+        padding: 12px 15px;
+        height: 62px;
+        max-width: 220px;
+        display: table;
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-top: -6px;
+    }
+
+.map {
+    height: 400px;
+    width: 100%;
+    display: inline-block;
+    padding: 14px 16px;
+  }
+    
+  .social {
+        display: inline-block;
+    
+    }
+    
+    li i {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        border: 2px solid black;
+    }
+    
+    li i:hover {
+        background-color: rgb(175, 175, 175);
+    
+    }
